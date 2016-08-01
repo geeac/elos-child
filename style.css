@@ -1,0 +1,189 @@
+/*
+
+Theme Name: 	Elos Child Theme
+
+Theme URI: 		http://idsrealestate.com
+
+Description: 	IDS Real Estate Group Website
+
+Author: 		Zuma Technology
+
+URI: 			http://zumatech.com
+
+Template:		elos
+
+Version: 		1.0
+
+*/
+
+
+
+@import url("../elos/style.css");
+
+
+
+/* =Theme customization starts here
+
+------------------------------------------------------- */
+
+
+
+#trueHeader{position:fixed;left:0;top:0;z-index:99;}
+
+
+
+.page_title2,.page_title{position:relative;top:70px;margin-bottom:70px;}
+
+
+
+/* = project page - project caption and hover changes */
+
+
+
+.cbp-l-grid-projects.cbp-caption-overlayBottom .cbp-caption-activeWrap { bottom:-227px; height:227px; }
+
+.cbp-l-grid-projects.cbp-caption-overlayBottom.cbp-ie9 .cbp-caption:hover .cbp-caption-activeWrap { bottom:-227px; }
+
+
+
+.cbp-l-grid-projects.cbp-caption-overlayBottom .cbp-caption-activeWrap .cbp-l-caption-buttonLeft { border-radius:6px;font-weight:bold;padding:4px 8px;background:#fc4242;color:white; }
+
+.cbp-l-grid-projects.cbp-caption-overlayBottom .cbp-caption-activeWrap .cbp-l-caption-buttonLeft:hover{color:black;background:white;}
+
+
+
+/* = contact page - google map issue fix */
+
+
+
+.container .google-map3 iframe{max-width:100%;}
+
+
+
+
+
+/* = project page - conditional gallery feature */
+
+
+
+.portfolio_area_left .ids-project-page-gallery-section{padding-top:15px;padding-bottom:15px;margin:15px auto 15px auto;text-align:center;}
+
+.portfolio_area_left .ids-project-page-gallery-section div.ngg-gallery-thumbnail{margin-right:15px;margin-top:20px;}
+
+.portfolio_area_left .ids-project-page-gallery-section div.slideshow_container{margin:0px auto;}
+
+
+
+/* = people page - rollover text feature */
+
+
+
+.IDS-image-container{overflow:hidden;padding:0;max-width:100%;}
+
+.IDS-image-container .cbp-caption-activeWrap{background:rgba(0,0,0,.6);color:white;font-weight:bold;padding:0px;width:100%;max-width:100%;display:none;}
+
+.IDS-image-container:hover .cbp-caption-activeWrap {display:block;}
+
+
+
+.ids-person-style-5 .cbp-caption-activeWrap{height:518px;width:88%;max-height:100%;max-width:100%;}
+
+
+
+.ids-person-style-2 .cbp-caption-activeWrap{height: 242px;width: 88%;max-height:100%;max-width:100%;}
+
+
+
+div.IDS-image-container .cbp-caption-activeWrap div.cbp-l-caption-alignCenter .cbp-l-caption-body{max-width:100%;}
+
+
+
+.master-slider-parent{z-index:50;}
+
+
+
+
+
+.page-id-6007 .vc_row .vc_col-sm-3 div.wpb_wrapper .box{overflow:hidden;padding:0px 1%;width:98%;}
+
+.page-id-6007 .vc_row .vc_col-sm-3 div.wpb_wrapper {overflow:hidden;}
+
+
+
+.ids-person-style-2 p{height:175px;}
+
+.ids-person-style-2 h6{min-height:95px;height:95px;}
+
+
+
+
+
+@media screen and (max-width: 1150px) {
+
+   .ids-person-style-5 .cbp-caption-activeWrap{height:518px;width:84%;font-size:12px;line-height:16px;max-height: inherit;}
+
+    .ids-person-style-2 .cbp-caption-activeWrap{height: 204px;width:86.5%;font-size:12px;line-height:16px;max-height: inherit;}
+
+    .ids-person-style-2 p{height:240px;} 
+
+}
+
+@media screen and (max-width: 1024px) {
+
+   .ids-person-style-5 .cbp-caption-activeWrap{height:518px;width:84%;font-size:12px;line-height:16px;max-height: inherit;}
+
+    .ids-person-style-2 .cbp-caption-activeWrap{height: 145px;width:84%;font-size:12px;line-height:16px;max-height: inherit;}
+
+    .ids-person-style-2 p{height:240px;} 
+
+}
+
+@media screen and (max-width: 980px) {
+
+   .ids-person-style-5 .cbp-caption-activeWrap{height:518px;width:92%;font-size:10px;line-height:12px;max-height: inherit;}
+
+    .ids-person-style-2 .cbp-caption-activeWrap{height:145px;width:84%;font-size:8px;line-height:9px;max-height: inherit;}
+
+    .ids-person-style-2 p{height:240px;}   
+
+}
+
+@media screen and (max-width: 780px) {
+
+   .ids-person-style-5 .cbp-caption-activeWrap{height:518px;width:92%;font-size:14px;line-height:16px;max-height: inherit;}
+
+    .ids-person-style-2 .cbp-caption-activeWrap{height:410px;width:92%;font-size:16px;line-height:17px;max-height: inherit;}
+
+    .page_title,.page_title2{clear:both;margin-top:70px;}
+
+    .ids-person-style-2 p{height:140px;} 
+
+    .sticky-menu-on .master-slider-parent{clear:both;margin-top:116px;}
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+   .ids-person-style-5 .cbp-caption-activeWrap{height:518px;width:92%;font-size:14px;line-height:16px;max-height: inherit;}
+
+    .ids-person-style-2 .cbp-caption-activeWrap{height:266px;width:89%;font-size:16px;line-height:17px;max-height: inherit;}
+
+}
+
+
+
+/* Remove underline underneath the photo from the About Us People */
+
+
+
+.features_sec42.two .box ul {
+
+  border-top: 1px solid #c5c3c4;
+
+  display: none;
+
+  padding: 0;
+
+}
